@@ -1,0 +1,4 @@
+<!--pages/market/market.wxml-->
+<view class="container">
+  <text>market under developing</text>
+</view>

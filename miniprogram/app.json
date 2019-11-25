@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/market/market",
+    "pages/order/order",
+    "pages/cart/cart",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F",
+    "navigationBarTitleText": "校园二手书交易",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/market/market",
+        "text": "market",
+        "iconPath": "images/market.png",
+        "selectedIconPath": "images/market_selected.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "order",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order_selected.png"
+      },
+      {
+              "pagePath": "pages/cart/cart",
+              "text": "cart",
+              "iconPath": "images/cart.png",
+              "selectedIconPath": "images/cart_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
